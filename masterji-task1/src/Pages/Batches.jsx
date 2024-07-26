@@ -41,7 +41,7 @@ const handlePageChange = (pageNumber) => {
   }
   return (
     <div>
-      <div className=" bg-pink-300 flex flex-col   min-h-screen">
+      <div className=" bg-pink-300 flex flex-col items-center  min-h-screen">
         <div className="h">
           <h1 className="text-center  text-6xl font-bold m-10 text-violet-950">
             Chai aur Code{" "}
@@ -117,12 +117,11 @@ Status
    
           </div>
         </div>
-        <div className="flex justify-end  ">
+      </div>
+      <div className="flex justify-end  m-28">
             <a href="https://chaicode.com/"><img src=
             {image} alt="lalok " className='h-28'/></a>
         </div>
-      </div>
-  
     </div>
   );
 };
